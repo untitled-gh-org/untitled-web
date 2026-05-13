@@ -17,6 +17,9 @@ function App() {
       <p>
         Welcome, {loading ? "loading..." : user ? user.username : "anonymous"}
       </p>
+
+      <hr />
+      <h3>Push. Coffee. Production</h3>
     </>
   )
 }
