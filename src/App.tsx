@@ -14,9 +14,7 @@ function App() {
         )}
       </div>
 
-      <p>
-        Welcome, {loading ? "loading..." : user ? user.username : "anonymous"}
-      </p>
+      <pre>{JSON.stringify(user, null, 2)}</pre>
 
       <hr />
       <h3>Push. Coffee. Production</h3>
